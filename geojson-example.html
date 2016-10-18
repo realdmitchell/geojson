@@ -42,7 +42,7 @@
 			layer.bindPopup(popupContent);
 		}
 
-		L.geoJson([bicycleRental, campus], {
+		L.geoJson(bicycleRental, {
 
 			style: function (feature) {
 				return feature.properties && feature.properties.style;
@@ -60,28 +60,6 @@
 					fillOpacity: 0.8
 				});
 			}
-		}).addTo(map);
-
-		L.geoJson(freeBus, {
-
-			filter: function (feature, layer) {
-				if (feature.properties) {
-					// If the property "underConstruction" exists and is true, return false (don't render features under construction)
-					return feature.properties.underConstruction !== undefined ? !feature.properties.underConstruction : true;
-				}
-				return false;
-			},
-
-			onEachFeature: onEachFeature
-		}).addTo(map);
-
-		var coorsLayer = L.geoJson(coorsField, {
-
-			pointToLayer: function (feature, latlng) {
-				return L.marker(latlng, {icon: baseballIcon});
-			},
-
-			onEachFeature: onEachFeature
 		}).addTo(map);
 
 	</script>
