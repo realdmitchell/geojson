@@ -157,7 +157,7 @@ var bicycleRental = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "58 This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
             },
             "id": 58
         },
@@ -165,13 +165,13 @@ var bicycleRental = {
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -104.9788452,
-                    39.6933755
+                       8.683333,
+                      50.116667
                 ]
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "This is centre of Frankfurt."
             },
             "id": 74
         }
