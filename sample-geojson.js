@@ -11,7 +11,7 @@ var bicycleRental = {
             },
             "type": "Feature",
             "properties": {
-                "popupContent": "58 This is a B-Cycle Station. Come pick up a bike and pay by the hour. What a deal!"
+                "popupContent": "Tree number 1!"
             },
             "id": 58
         },
