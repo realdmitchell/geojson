@@ -202,4 +202,4 @@ L.geoJSON(someFeatures, {
 	}
 }).addTo(map);</code></pre>
 
-<p>View the <a href="example.html">example page</a> to see in detail what is possible with the GeoJSON layer.</p>
+<p>View the <a href="geojson-example.html">example page</a> to see in detail what is possible with the GeoJSON layer.</p>
