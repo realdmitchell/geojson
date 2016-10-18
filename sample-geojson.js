@@ -1,4 +1,4 @@
-var bicycleRental = {
+var treeLoc = {
     "type": "FeatureCollection",
     "features": [
         {
@@ -12,8 +12,7 @@ var bicycleRental = {
             "type": "Feature",
             "properties": {
                 "popupContent": "Tree number 1!"
-            },
-            "id": 58
+            }
         },
         {
             "geometry": {
@@ -26,8 +25,7 @@ var bicycleRental = {
             "type": "Feature",
             "properties": {
                 "popupContent": "This is centre of Frankfurt."
-            },
-            "id": 74
+            }
         }
     ]
 };
